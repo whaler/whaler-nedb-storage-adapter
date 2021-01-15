@@ -1,0 +1,37 @@
+{
+  "name": "whaler-nedb-storage-adapter",
+  "description": "Whaler nedb storage adapter",
+  "author": {
+    "name": "Sergei Vizel",
+    "email": "sergei.vizel@gmail.com",
+    "url": "https://github.com/cravler"
+  },
+  "homepage": "https://github.com/whaler/whaler-nedb-storage-adapter",
+  "keywords": [
+    "whaler",
+    "nedb",
+    "storage",
+    "adapter"
+  ],
+  "license": "MIT",
+  "version": "0.1.0-dev",
+  "main": "index.js",
+  "whaler-plugin": true,
+  "dependencies": {
+    "nedb": "^1.8.0"
+  },
+  "engines": {
+    "node": ">=14.15",
+    "whaler": ">=0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:whaler/whaler-nedb-storage-adapter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whaler/whaler-nedb-storage-adapter/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
